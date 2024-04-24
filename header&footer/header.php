@@ -11,7 +11,7 @@
 <ul id="navigation">
             <li> <a class="navtext" href="home.php">Home</a></li>
             <li> <a class="navtext" href="casussen.php">Casussen</a></li>
-            <li> <a class="navtext" href="#">Partnerprogramma</a></li>
+            <li> <a class="navtext" href="nieuw2.php">Partnerprogramma</a></li>
         </ul>
 </article>
 

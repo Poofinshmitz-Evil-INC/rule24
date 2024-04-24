@@ -8,9 +8,9 @@
 <article class="Contact">
     <h1>Contact</h1>
     <article class="Contact-img">
-    <img class="CTI" src="images/facebook.png" alt="contact img">
-    <img class="CTI" src="images/instagram.png" alt="contact img">
-    <img class="CTI" src="images/linkedin.png" alt="contact img">
+   <a class="CTI" href="#"><img class="CTI" src="images/facebook.png" alt="contact img"></a> 
+    <a class="CTI" href="#"><img class="CTI" src="images/instagram.png" alt="contact img"></a>
+    <a class="CTI" href="#"><img class="CTI" src="images/linkedin.png" alt="contact img"></a>
     </article>
     
 </article>

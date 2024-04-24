@@ -6,19 +6,3 @@ body{
 background-color: rgb(226, 86, 86);
 background-repeat: no-repeat;
 }
-.headersection{
-    background-color:cadetblue;
-    display: grid;
-    grid-template-columns: 9, 1fr;
-    grid-template-rows: 1, 100px;
-    grid-template-areas:"Logo Logo Logo nav nav nav login login login ";
-    }
-    .Logo{
-    grid-area: Logo;
-    width: 30vh;
-    height: 50vh;
-    }
-    .navigation{
-        display: flex;
-    
-    }

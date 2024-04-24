@@ -1,7 +1,6 @@
-
-
-
+<link rel="stylesheet" href="style folder/header&footer.css">
 <section class="headersection">
+    
 <img class="Logo" src="" alt="logo">
 <article class="container">
 <ul id="navigation">

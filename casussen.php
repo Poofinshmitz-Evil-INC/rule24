@@ -11,7 +11,7 @@
 <html lang="en">
 
 <?php include("header&footer/header.php"); ?>
-<section>
+<section class="Casussen-main">
 <article class="product">
     <h1>product</h1>
     <p>
@@ -43,8 +43,7 @@
 </section>
 
 
-<?php include("header and footer/footer.php"); ?>
+<?php include("header&footer/footer.php"); ?>
 
     
-</body>
 </html>

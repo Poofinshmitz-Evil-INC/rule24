@@ -8,9 +8,13 @@ background-size: cover;
 background-color: rgb(255, 255, 255);
 background-repeat: no-repeat;
 }
+body{
+background-position: top,bottom;
+background-repeat: repeat-x, repeat-x;
+}
 .headersection{
-    background-color:rgba(38, 140, 236, 0.221);
-    border: 0;
+    background-color:rgba(249, 249, 249, 0.221);
+    border: none;
     display: grid;
     grid-template-columns: 9, 1fr;
     grid-template-rows: 1, 100px;
@@ -53,10 +57,36 @@ background-repeat: no-repeat;
         padding-top: 1vh;
         padding-bottom: 1vh;
         padding-right: 15px;
-        color: #f91c1cc0;
+        color: #b82f83;
         }
     .navtext:hover{
-    background: rgba(234, 255, 99, 0.43);
+    background:#2aa89a;
+    color:#133478;
     border-radius: 10vh;
     border-top: 20vh;
+    }
+    .Casussen-main{
+    height: 74vh;
+    }
+
+    footer{
+    background-color: #2aa89a;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 9, 1fr;
+    grid-template-rows: 1, 100px;
+    grid-template-areas:"texts texts texts img img img create create create";
+    }
+    .Footer-text{
+    grid-area: texts;
+    }
+    .Contact{
+    grid-area: img;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    }
+    .Creates{
+    grid-area:create;
+    grid-column-start: 9;
+    grid-column-end: 12;
     }

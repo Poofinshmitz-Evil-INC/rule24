@@ -15,6 +15,7 @@
     <title>index</title>
 </head>
 <body>
-    
+<?php include("header and footer/header.php"); ?>
+
 </body>
 </html>

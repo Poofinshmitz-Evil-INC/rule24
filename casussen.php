@@ -62,6 +62,10 @@
     <h1>partner</h1>
     
 </article>
+<article class="partner4">
+    <h1>partner</h1>
+    
+</article>
 
 </section>
 

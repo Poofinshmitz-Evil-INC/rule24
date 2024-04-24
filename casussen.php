@@ -10,6 +10,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include("header&footer/header.php"); ?>
+<article class="middle-line">
+ <h1>Casussen</h1>
+<article class="line"></article>
+</article>
 <section class="Casussen-main">
 <article class="product1">
     <h1>product</h1>
@@ -39,6 +43,7 @@
 </article>
 </section>
 <article class="middle-line">
+ <h1>Partner</h1>
 <article class="line"></article>
 </article>
 
@@ -46,15 +51,15 @@
 
 
 <article class="Partner1">
-    <h1>product</h1>
+    <h1>partner</h1>
     
 </article>
 <article class="partner2">
-    <h1>product</h1>
+    <h1>partner</h1>
     
 </article>
 <article class="partner3">
-    <h1>product</h1>
+    <h1>partner</h1>
     
 </article>
 

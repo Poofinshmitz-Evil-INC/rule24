@@ -143,14 +143,15 @@ background-repeat: repeat-x, repeat-x;
         grid-template-areas:"partner1 partner1 partner1 partner2 partner2 partner2 partner3 partner3 partner3";
        }
        .middle-line{
-        display: flex;
-        justify-content: center;
+        display: grid;
+        margin-left: 20vh;
+        margin-top: 3vh;
        }
        
        .line{
         display: grid;
         height: 3px;
-        width: 160vh;
+        width: 40vh;
         background-color: black;
        }
     .Partner1{

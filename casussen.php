@@ -9,36 +9,54 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <?php include("header&footer/header.php"); ?>
 <section class="Casussen-main">
-<article class="product">
+<article class="product1">
     <h1>product</h1>
     <p>
         
     </p>
 </article>
-<article class="product">
+<article class="product2">
     <h1>product</h1>
    
 </article>
-<article class="product">
+<article class="product3">
     <h1>product</h1>
     
 </article>
-<article class="product">
+<article class="product4">
     <h1>product</h1>
    
 </article>
-<article class="product">
+<article class="product5">
     <h1>product</h1>
    
 </article>
-<article class="product">
+<article class="product6">
     <h1>product</h1>
     
+</article>
+</section>
+<article class="middle-line">
+<article class="line"></article>
 </article>
 
+<section class="Partner">
+
+
+<article class="Partner1">
+    <h1>product</h1>
+    
+</article>
+<article class="partner2">
+    <h1>product</h1>
+    
+</article>
+<article class="partner3">
+    <h1>product</h1>
+    
+</article>
 
 </section>
 

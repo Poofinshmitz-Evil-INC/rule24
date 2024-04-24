@@ -13,7 +13,7 @@ background-position: top,bottom;
 background-repeat: repeat-x, repeat-x;
 }
 .headersection{
-    background-color:rgba(100, 199, 245, 0.368);
+    background-color:#133578a5;
     border: none;
     display: grid;
     grid-template-columns: 9, 1fr;
@@ -66,11 +66,133 @@ background-repeat: repeat-x, repeat-x;
     border-top: 20vh;
     }
     .Casussen-main{
-    height: 73vh;
+    height: 94vh;
+    display: grid;
+    grid-template-columns: 9, 1fr;
+    grid-template-rows: 6, 100px;
+    grid-template-areas:"product1 product1  product2 product2 product3 product3""product4 product4  product5 product5 product6 product6";
+    align-items: center;
+    margin-left: 29vh;
+    }
+    .product1{
+     display: flex;
+     grid-area: product1;
+     height: 40vh;
+     width: 30vh;
+     border: 3px solid black;
+     background-color: white;
+     justify-content: center;
+     align-items: center;
+    }
+    .product2{
+        display: flex;
+        grid-area: product2;
+        height: 40vh;
+        width: 30vh;
+        border: 3px solid black;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .product3{
+        display: flex;
+        grid-area: product3;
+        height: 40vh;
+        width: 30vh;
+        border: 3px solid black;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .product4{
+        display: flex;
+        grid-area: product4;
+        height: 40vh;
+        width: 30vh;
+        border: 3px solid black;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+       }
+       .product5{
+           display: flex;
+           grid-area: product5;
+           height: 40vh;
+           width: 30vh;
+           border: 3px solid black;
+           background-color: white;
+           justify-content: center;
+           align-items: center;
+       }
+       .product6{
+           display: flex;
+           grid-area: product6;
+           height: 40vh;
+           width: 30vh;
+           border: 3px solid black;
+           background-color: white;
+           justify-content: center;
+           align-items: center;
+       }
+       .Partner{
+        height: 25vh;
+        display: grid;
+        display: grid;
+        grid-template-columns: 9, 1fr;
+        grid-template-rows: 3, 100px;
+        grid-template-areas:"partner1 partner1 partner1 partner2 partner2 partner2 partner3 partner3 partner3";
+       }
+       .middle-line{
+        display: flex;
+        justify-content: center;
+       }
+       
+       .line{
+        display: grid;
+        height: 3px;
+        width: 160vh;
+        background-color: black;
+       }
+    .Partner1{
+    display: flex;
+    grid-area:partner1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 20vh;
+    width: 30vh;
+    border: 3px solid black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30vh;
+    }
+    .partner2{
+    display: flex;
+    grid-area:partner2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 20vh;
+    width: 30vh;
+    border: 3px solid black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    }
+    .partner3{
+    display: flex;
+    grid-area:partner3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 20vh;
+    width: 30vh;
+    border: 3px solid black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
     }
 
     .footer-container{
-    background-color: #72a6fc70;
+    background-color:#2aa89a;
     height: 15vh;
     display: grid;
     grid-template-columns: 10, 1fr;

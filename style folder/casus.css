@@ -3,6 +3,46 @@ padding: 0;
 margin: 0;
 }
 body{
-background-color: rgb(226, 86, 86);
+background-color: rgb(255, 255, 255);
 background-repeat: no-repeat;
 }
+.headersection{
+    background-color:rgb(37, 127, 188);
+    display: grid;
+    grid-template-columns: 9, 1fr;
+    grid-template-rows: 1, 100px;
+    grid-template-areas:"Logo Logo Logo nav nav nav null null login login login ";
+    }
+    .Logo{
+    grid-area: Logo;
+    place-items: center;
+    align-content: center;
+    width: 5vh;
+    height: 10vh;
+    margin-left: 3vh;
+    }
+    .container{
+    grid-area: nav;
+    place-items: center;
+    align-content: center;
+    }
+    .login-image{
+    grid-area: login;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    margin-top: 1vh;
+    margin-right: -10vh;
+    width: 5vh;
+    height: 5vh;
+    }
+    #navigation{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3vh;
+        list-style: none;
+        align-items: center;
+    }
+    .navtext{
+    text-decoration: none;
+    text-align: center;
+    }

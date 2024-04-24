@@ -13,5 +13,9 @@
 <?php include("header&footer/header.php"); ?>
 
 
-</body>
+
+
+
+
+<?php include("header&footer/footer.php"); ?>
 </html>

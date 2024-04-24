@@ -6,7 +6,7 @@
 </head>
 <body>
 <section class="headersection">
-<img class="Logo" src="" alt="logo">
+<img class="Logo" src="images/logos.png" alt="logo">
 <article class="container">
 <ul id="navigation">
             <li> <a class="navtext" href="index.php">Home</a></li>
@@ -15,5 +15,5 @@
         </ul>
 </article>
 
-<a class="login-image" href=""><img class="login-image" src="images folder/login.png" alt=""></a>
+<a class="login-image" href=""><img class="login-image" src="images/login.png" alt=""></a>
 </section>

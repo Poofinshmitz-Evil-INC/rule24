@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include("header and footer/header.php"); ?>
+<?php include("header&footer/header.php"); ?>
 <section>
 <article class="product">
     <h1>product</h1>

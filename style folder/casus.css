@@ -2,22 +2,25 @@
 padding: 0;
 margin: 0;
 }
-body{
+html{
+background-image: url(../images/background.jpg);
+background-size: cover;
 background-color: rgb(255, 255, 255);
 background-repeat: no-repeat;
 }
 .headersection{
-    background-color:rgb(37, 127, 188);
+    background-color:rgba(38, 140, 236, 0.221);
+    border: 0;
     display: grid;
     grid-template-columns: 9, 1fr;
     grid-template-rows: 1, 100px;
     grid-template-areas:"Logo Logo Logo nav nav nav null null login login login ";
+    height: 12vh;
     }
     .Logo{
     grid-area: Logo;
-    place-items: center;
-    align-content: center;
-    width: 5vh;
+    margin-top: 1vh;
+    width: 10vh;
     height: 10vh;
     margin-left: 3vh;
     }
@@ -43,6 +46,17 @@ background-repeat: no-repeat;
         align-items: center;
     }
     .navtext{
-    text-decoration: none;
-    text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-left: 15px;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-right: 15px;
+        color: #f91c1cc0;
+        }
+    .navtext:hover{
+    background: rgba(234, 255, 99, 0.43);
+    border-radius: 10vh;
+    border-top: 20vh;
     }

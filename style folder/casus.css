@@ -66,27 +66,57 @@ background-repeat: repeat-x, repeat-x;
     border-top: 20vh;
     }
     .Casussen-main{
-    height: 74vh;
+    height: 73vh;
     }
 
-    footer{
-    background-color: #2aa89a;
+    .footer-container{
+    background-color: #ffffff3b;
     height: 15vh;
     display: grid;
-    grid-template-columns: 9, 1fr;
+    grid-template-columns: 10, 1fr;
     grid-template-rows: 1, 100px;
     grid-template-areas:"texts texts texts img img img create create create";
     }
     .Footer-text{
+    display: grid;
+    align-items: center;
+    margin-left: 2vh;
     grid-area: texts;
     }
     .Contact{
+    display: grid;
+    align-items: center;
     grid-area: img;
-    grid-column-start: 4;
+    grid-column-start: 2;
     grid-column-end: 6;
     }
-    .Creates{
-    grid-area:create;
-    grid-column-start: 9;
-    grid-column-end: 12;
+    .Contact h1{
+        text-decoration: none;
+        font-size: 40px;
+        margin-left: 18vh;
     }
+    
+    .Contact-img{
+    display: flex;
+    margin-left: 10vh;
+    }
+    .CTI{
+        height: 5vh;
+        width: 5vh;  
+        margin-left: 4vh;
+    }
+    
+    .Creates{
+    display: grid;
+    align-items: center;
+    grid-area:create;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    margin-left: 20vh;
+    }
+    
+    .creates-img{
+        height: 10vh;
+        width: 10vh;
+        margin-left: 15vh;
+     }

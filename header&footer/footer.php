@@ -17,9 +17,9 @@
 <article class="Contact">
     <h1>Contact</h1>
     <article class="Contact-img">
-   <a class="CTI" href="#"><img class="CTI" src="images/facebook.png" alt="contact img"></a> 
-    <a class="CTI" href="#"><img class="CTI" src="images/instagram.png" alt="contact img"></a>
-    <a class="CTI" href="#"><img class="CTI" src="images/linkedin.png" alt="contact img"></a>
+   <a class="CTI" href="https://www.facebook.com/gemeentezoetermeer" target=”_blank”><img class="CTI" src="images/facebook.png" alt="contact img"></a> 
+    <a class="CTI" href="https://www.instagram.com/gemeentezoetermeer/" target=”_blank”><img class="CTI" src="images/instagram.png" alt="contact img"></a>
+    <a class="CTI" href="https://nl.linkedin.com/company/gemeente-zoetermeer" target=”_blank”><img class="CTI" src="images/linkedin.png" alt="contact img"></a>
     </article>
     
 </article>

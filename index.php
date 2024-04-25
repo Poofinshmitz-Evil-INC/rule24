@@ -17,11 +17,13 @@
 </head>
 <?php include("header&footer/header.php"); ?>
 <body>
-    <h1>Welkom</h1>
+    <h1 class="welkom">Welkom</h1>
+    <img src="images/team.jpg" alt="team photo" class="team">
     <div class="textHomepage">
         <p>Welkom op onze website gewijd aan het innovatieve platform voor educatieve projecten in Zoetermeer en de Community Dutch Innovation Factory. Hier vindt u een overzicht van educatieve projecten voor leerlingen en studenten, verzameld en gepresenteerd in samenwerking met de gemeente Zoetermeer. Met gemakkelijke selectieopties en een geïntegreerd volgsysteem streven we ernaar om een handige en efficiënte ervaring te bieden voor zowel projectaanbieders als -zoekenden. Ontdek ons aanbod en sluit u aan bij onze gemeenschap die innovatie en educatie hoog in het vaandel draagt.</p>
     </div>
-    <img src="images/team.jpg" alt="team photo" class="team">
+    <div class="whitestripe"></div>
+
 </body>
 <?php include("header&footer/footer.php"); ?>
 </html>

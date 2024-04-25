@@ -13,7 +13,7 @@
     background-repeat: repeat-x, repeat-x;
     }
     .headersection{
-        background-color:#133578a5;
+        background-color:#13357858;
         border: none;
         display: grid;
         grid-template-columns: 9, 1fr;
@@ -267,6 +267,24 @@
         main section{
           display: flex;
         }
+
+        .partnertext h1{
+          display: grid;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          margin-left: -10vh;
+          font-size: 40pt;
+          text-transform: uppercase;
+        }
+        .partnertext{
+          display: grid;
+          justify-content: center;
+          margin-left: 13vh;
+          text-decoration: none;
+          font-size: 18pt;
+          text-transform: lowercase;
+        }
        
         .UI{
           width: 40vw;
@@ -274,6 +292,7 @@
           margin-top: 7.5vh;
           margin-left: 7.5vw;
           margin-right: 7.5vh;
+          border-radius: 10vh;
         }
         .container1 {
             display: flex;
@@ -314,6 +333,7 @@
            
             margin-top: 20px;
             font-size: 18px;
+            margin-right: 10vh;
            
           }
        

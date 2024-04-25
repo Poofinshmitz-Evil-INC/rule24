@@ -1,3 +1,12 @@
+<?php
+//---------------------------------------------------------------------------------------------------//
+// Naam script		: footer.php
+// Omschrijving		: The footer are made with this file.
+// Naam ontwikkelaar: mohamed jelani
+// Project		    : hackethon
+// Datum		    : 24-4-2024
+//---------------------------------------------------------------------------------------------------//
+?>
 <footer>
 <section class="footer-container">
 <article class="Footer-text">

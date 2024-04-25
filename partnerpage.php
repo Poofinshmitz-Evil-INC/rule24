@@ -1,3 +1,12 @@
+<?php
+//---------------------------------------------------------------------------------------------------//
+// Naam script		: partnerpage.php
+// Omschrijving		: De partnerpagina van de website
+// Naam ontwikkelaar: Hamza Ibrahim
+// Project		    : hackethon
+// Datum		    : 24-4-2024
+//---------------------------------------------------------------------------------------------------//
+?>
 <?php include("header&footer/header.php"); ?>
     <main class="partners">
         <section>

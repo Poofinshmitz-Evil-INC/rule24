@@ -1,3 +1,12 @@
+<?php
+//---------------------------------------------------------------------------------------------------//
+// Naam script		: header.php
+// Omschrijving		: The headers are made with this file.
+// Naam ontwikkelaar: mohamed jelani
+// Project		    : hackethon
+// Datum		    : 24-4-2024
+//---------------------------------------------------------------------------------------------------//
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +18,9 @@
 <img class="Logo" src="images/logos.png" alt="logo">
 <article class="container">
 <ul id="navigation">
-            <li> <a class="navtext" href="home.php">Home</a></li>
+            <li> <a class="navtext" href="index.php">Home</a></li>
             <li> <a class="navtext" href="casussen.php">Casussen</a></li>
-            <li> <a class="navtext" href="nieuw2.php">Partnerprogramma</a></li>
+            <li> <a class="navtext" href="partnerpage.php">Partnerprogramma</a></li>
         </ul>
 </article>
 

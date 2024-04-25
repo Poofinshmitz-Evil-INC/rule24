@@ -1,7 +1,7 @@
 <?php
 //---------------------------------------------------------------------------------------------------//
 // Naam script		: casussen.php
-// Omschrijving		: the producted website
+// Omschrijving		: The casussen of the website are here.
 // Naam ontwikkelaar: mohamed jelani
 // Project		    : hackethon
 // Datum		    : 24-4-2024

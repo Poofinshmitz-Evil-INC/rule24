@@ -16,7 +16,7 @@
 </article>
 <article class="Creates">
 <img class="creates-img" src="images/poof.png" alt="creates-imgs">
-<p>This website is made by Poofinschmitz</p>
+<p>This website is made by Poofinschmitz Evil INC.</p>
 </article>
 </section>
 </footer>

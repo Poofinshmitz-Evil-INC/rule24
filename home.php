@@ -12,10 +12,15 @@
 
 <?php include("header&footer/header.php"); ?>
 
-
-
-
-
+<div class="container1">
+  <div class="left-image">
+    <img src="linker_afbeelding.jpg" alt="Linker afbeelding">
+  </div>
+  <div class="right-content">
+    <img src="rechter_afbeelding.jpg" alt="Rechter afbeelding">
+    <p></p>
+  </div>
+</div>
 
 <?php include("header&footer/footer.php"); ?>
 </html>

@@ -253,7 +253,9 @@ background-repeat: repeat-x, repeat-x;
         height: 10vh;
         width: 10vh;
         margin-left: 15vh;
-     }
+        border-radius: 15vh;
+    }
+    
     .mborijnland{
       height: 10vh;
       width: 10vh;
@@ -272,4 +274,64 @@ background-repeat: repeat-x, repeat-x;
       margin-top: 7.5vh;
       margin-left: 7.5vw;
       margin-right: 7.5vh;
+    }
+    
+
+
+
+
+
+
+
+
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .left-image {
+        flex: 1;
+      }
+      
+      .left-image img {
+        width: 100%;
+        max-width: 400px; /* Pas dit aan naar de gewenste grootte */
+      }
+      
+      .right-content {
+        flex: 1;
+        text-align: center; /* Of pas aan naar gewenste uitlijning */
+      }
+      
+      .right-content img {
+        width: 50%; /* Pas dit aan naar de gewenste grootte */
+        max-width: 200px; /* Pas dit aan naar de gewenste grootte */
+      }
+      
+      .right-content p {
+        margin-top: 20px; /* Ruimte tussen de afbeelding en de tekst */
+        font-size: 18px; /* Pas dit aan naar de gewenste grootte */
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .team{   
+        width: 90vh;
+        height: 50vh;
+       margin-right: 5vh;
+        
     }

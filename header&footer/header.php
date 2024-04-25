@@ -18,7 +18,7 @@
 <img class="Logo" src="images/logos.png" alt="logo">
 <article class="container">
 <ul id="navigation">
-            <li> <a class="navtext" href="index.php">Home</a></li>
+            <li> <a class="navtext" href="homepage.php">Home</a></li>
             <li> <a class="navtext" href="casussen.php">Casussen</a></li>
             <li> <a class="navtext" href="partnerpage.php">Partnerprogramma</a></li>
         </ul>
